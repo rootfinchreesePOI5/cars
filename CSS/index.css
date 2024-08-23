@@ -282,9 +282,8 @@ h5{
     font-weight:500;
 }
 .type ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     gap: 2rem;
     font-size: 1.8rem;
     margin-top: 4rem;
@@ -484,24 +483,23 @@ h5{
 }
 .subs{
     display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
     margin-left: 7rem;
+    padding: 0.5rem;
+    background-color: white;
+    color:black;
+    border-radius:20px;
+    gap: 0.5rem;
 }
 .subs h2{
-    background-color: grey;
-    padding: 0.8rem 1rem 1rem 2.5rem;
-    border-top-left-radius:20px;
-    border-bottom-left-radius: 20px;
     cursor: pointer;
+    border-right: 1px solid black ;
 }
 .subs h2:hover{
     background-color: white;
     color: black;
-}
-.footer input{
-    padding: 1rem;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px ;
 }
 
 
@@ -678,7 +676,8 @@ h5{
     display: block;
 }
 .type ul{
-    display: block;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
 }
 .typeb{
     margin-top: 2.5rem;
