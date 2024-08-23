@@ -285,7 +285,7 @@ h5{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 2rem;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     margin-top: 4rem;
 }
 .type a{
@@ -370,7 +370,6 @@ h5{
 .f-items{
     padding: 3rem 1rem;
     border: 2px solid white;
-    margin-left: 2rem;
     border-radius: 20px;
 }
 .f-item{
@@ -731,7 +730,6 @@ h5{
 .features{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     text-align: center;
 }
@@ -804,52 +802,11 @@ h5{
 .subs h2{
     padding: 0.92rem;
 }
-}   
+}
+@media (max-width:410px){
 
+    .grid-container{
+        m
+    }
 
-/* 
-.footer{
-    color: rgb(255, 255, 255);
-    background-color: rgba(51, 45, 45, 0.182);
-    padding: 3rem 2rem;
-    text-align: center;
 }
-.footer-items{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.footer-item{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.footer a{
-    color: rgb(0, 0, 0);
-    font-size: 1.5rem;
-    margin: 0 3rem;
-}
-.footer a:hover{
-    color: red;
-}
-.subs{
-    display: flex;
-    align-items: center;
-    margin-left: 7rem;
-}
-.subs h2{
-    background-color: grey;
-    padding: 0.8rem 1rem 1rem 2.5rem;
-    border-top-left-radius:20px;
-    border-bottom-left-radius: 20px;
-    cursor: pointer;
-}
-.subs h2:hover{
-    background-color: white;
-    color: black;
-}
-.footer input{
-    padding: 1rem;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px ;
-} */
